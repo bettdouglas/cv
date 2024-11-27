@@ -12,7 +12,7 @@ export function PersonalInfo() {
         <div className="flex flex-col items-center space-y-6">
           <div className="relative w-48 h-48 rounded-full overflow-hidden">
             <Image
-              src="/placeholder.svg?height=192&width=192"
+              src="https://avatars.githubusercontent.com/u/28408089?v=4&height=192&width=192"
               alt="Douglas David Bett"
               layout="fill"
               objectFit="cover"
@@ -38,3 +38,4 @@ export function PersonalInfo() {
     </Card>
   )
 }
+
