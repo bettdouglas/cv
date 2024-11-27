@@ -1,5 +1,8 @@
-import { blogPosts } from '@/data/blog-posts'
-import RSS from 'rss'
+import { blogPosts } from '@/data/blog-posts';
+import RSS from 'rss';
+
+export const dynamic = 'force-static'
+
 
 export async function GET() {
   const feed = new RSS({
@@ -27,4 +30,3 @@ export async function GET() {
     },
   });
 }
-
