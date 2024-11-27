@@ -8,7 +8,9 @@ export function Header() {
         <nav>
           <ul className="flex space-x-4">
             <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li><Link href="/services" className="hover:underline">Services</Link></li>
             <li><Link href="/blog" className="hover:underline">Blog</Link></li>
+            <li><Link href="/contact" className="hover:underline">Contact Us</Link></li>
           </ul>
         </nav>
         <ModeToggle />
